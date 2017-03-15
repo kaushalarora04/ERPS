@@ -1,0 +1,119 @@
+/* CSS Document */
+
+/*
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Euphoria Script', cursive;
+*/
+h1 {color:#F00; font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif; font-size:32px; font-weight:bold; font-style:normal; }
+h2 {color:#096; font-family:'Euphoria Script',  Arial, Helvetica, sans-serif; font-size:27px; font-weight:bold; font-style:italic; }
+h3 {color:#BEBA16; font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif; font-size:18px; font-weight: 700; font-style:italic; }
+
+p					{font-size:13px; line-height:160%;}
+
+body				{background-image:url(../images/illustrations/2.jpg); background-repeat:repeat; font-family:Arial, Helvetica, sans-serif;}
+
+#wrapper			{width:900px; margin:20px auto; background-color:#FFF; padding:0 40px;}
+
+
+#carousal
+{
+	width: 100%;
+	height: 300px;
+	top: 0px;
+	margin-left:0px;
+	border-radius: 30px 30px 0 0;
+	position: relative;
+	box-shadow: 0px 2px 2px black;
+}
+
+#carousal img
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 30px 30px 0 0;
+	position:absolute;
+	left:-20px;
+	top:-15px;
+	display: none;
+	overflow: hidden;
+}
+
+/*padding: top right bottom left ,passing four variable. top&bottom left&right , passing two variable */
+ 
+img 				{padding:20px; }
+
+#top				{}
+#logo				{float:left;	margin-top:30px;	margin-bottom:0px;}
+#logo ul li			{display:inline;	list-style-type:none;	padding-right:3px;}
+
+
+#nav				{clear:both; background-color:#676767; border-radius:8px; padding: 2px 0; margin-bottom:2px;}
+#nav ul				{padding:5px 0 0 0; margin:15px 0;	border-top:1px #666666 dotted;}
+#nav ul li			{display:inline;	list-style-type:none;	margin:0 20px 0 0; }
+
+#nav a:link			{font-weight:bold; text-decoration:none; text-transform:uppercase; color:#FFF;	}
+#nav a:visited		{font-weight:bold; text-decoration:none; text-transform:uppercase; color:#FFF;	}
+#nav a:active		{font-weight:bold; text-decoration:none; text-transform:uppercase; color:#FFF;	}
+#nav a:hover		{font-weight:bold; text-decoration:none; text-transform:uppercase; color:#096;	}
+#nav a:focus		{font-weight:bold; text-decoration:none; text-transform:uppercase; color:#096;	}
+
+/*.nav-anchor			{background-color:#CCC; text-decoration:none; font-family:Georgia, "Times New Roman", Times, serif; paddin:7px 20px; border-left:8px #333333 solid;} 
+
+ setting vertical links: a	{display:block; width:150px; background-color:#0080C0; text-decoration:none; font-family:Georgia, "Times New Roman", Times, serif; font-size:12px; paddin:7px 20px; border-bottom:solid #CCC 1px;}*/
+
+#content-right		{float:right;	widht:270px;}
+#content-left		{float:left; 	width:580px; margin-bottom:30px;}
+#content-left img	{margin:10px 0 0 0; padding:0px;}
+#content-left table	{background-image:url(../images/table_bg.jpg); background-repeat:no-repeat; margin-bottom:30px; 	  background-size:cover;}
+
+#box1				{padding-right:40px;}
+
+#content-left h1 	{color:#4B4B4B; padding:10px 0; margin:10px 0; background-image:url(../images/photos/heading_bg.jpg); background-size:cover;}
+
+.img				{float:right;	padding:5px 15px;}
+
+#right-box1			{border:1px #666666 dotted; background-color:#FAF5C7;}
+#right-box1 ul li	{font-size:13px; line-height:160%;}
+
+
+
+.color-table		{background-color:#FFC6AA;}
+
+.color-table2		{background-color:#FFE8E8;}
+
+#contact-form ol li	{list-style-type:none;}
+
+#contact-form input,textarea		{
+					display:block;		
+					width:250px;	
+					border:2px #CCC solid;
+					padding:5px;
+					}
+					
+textarea			{height:120px;}
+
+input:hover,textarea:hover		{background-color:#DBFFD9;}
+input:focus,textarea:focus		{background-color:#DBFFD9;}
+
+#contact-form label				{display:block;	margin-top:10px; }
+
+.submit				{width:100px;	margin-top:25px;}
+
+#footer 			{text-align:center; padding:10px; margin:30px 0; clear:both; border-top:#999 2px dotted; font-weight:bold;}
+
+a:hover		{color: #C00;}
+a:link		{color:#090; text-decoration:none;}
+a:active	{color:#090;} 
+a:visited	{color:#090;} 
+a:focus		{color:#FC0;}
+
+
+#about-head			{display:block;}
+#about1,about2			{widhth:850px; display:block;}
+#content-left-about	{float:left;	width:200px; display:block;}
+#content-right-about {float:right; width:500px;}
+
+.about			{font-size:13px; line-height:160%; font-family:Verdana, Geneva, sans-serif;}
+
+
+
